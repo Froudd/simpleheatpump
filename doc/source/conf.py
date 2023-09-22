@@ -11,9 +11,9 @@ sys.path.insert(0, str(src_path))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Brauhaus"
-copyright = "2023, Frederic Bless"
-author = "Frederic Bless"
+project = "HeatPumpSimulation"
+copyright = "2023, Frederic Bless & Cecilia Dean"
+author = "Frederic Bless & Cecilia Dean"
 release = "0.0.1"
 
 # -- General configuration ---------------------------------------------------
