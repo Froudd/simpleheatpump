@@ -37,7 +37,7 @@ compressor_efficiency = 0.71
 
 source = 30
 sink = 60
-cop_fit = heatpump.cop_from_temperatures(temperature_hot = source,temperature_cold = sink)
+cop_fit = heatpump.cop_from_temperatures(temperature_hot = sink,temperature_cold = source)
 print("The COP calculated using a simple fit give the following result {}, for a source temperature of {} and a sink temperature of {}.".format(cop_fit,source,sink))
 
 # Try make a function to calculate the COP Carnot (see https://en.wikipedia.org/wiki/Coefficient_of_performance)
